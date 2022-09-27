@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Welcome </title>
+<!--makes the website autoscale on different devices/aspect ratios-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<!--Working, NOTE: Renaming a jpg to ico works-->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!--Configure CSS data-->
+<link rel="stylesheet" type="text/css" href="Skin.css">
+<!--Learn JavaScript and implement-->
+<script type="text/javascript" src="Script.js"></script>
+</head>
+<body>
+<br />
+<h1>Welcome to my testwebsite</h1>
+<br />
+<p>In the end I want to have an <b>interactive</b> website</p>
+<!--Infos about me-->
+<h2>Here is something about me</h2>
+<p>My name is Mirco. I am 21 years old.<br>Currently I'm getting edcuated as a developer.<br>My dream is it to provide free and open source apps on a donation basis for the people.<br>I love gameing.</p>
+<form>
+<table>
+  <tr>
+    <td>Username:</td>
+  </tr>
+  <tr>
+  <td><textarea type="text" id="commentuser"></textarea></td>
+  </tr>
+  <tr>
+      <td>Comment:</td>
+  </tr>
+  <tr>
+    <!--get it to scale for desktop-->
+      <td><textarea type="text" id="commentdata" row="50" cols="20"></textarea></td>
+  </tr>
+  <tr><td><input type="submit"></td></tr>
+</table>
+</form>
+<br>
+<p><!--Input variable request--></p>
+<br>
+<h3>Here is a list of my Favourite apps</h3>
+<!--A list of my Favourite apps-->
+<table>
+  <tr>
+    <th>App</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="https://f-droid.org/" target="_blank">F-Droid</a></td>
+    <td>This is an Android app store with a huge collection of open source apps</td>
+  </tr>
+  <tr>
+    <td><a href="https://apt.izzysoft.de/fdroid/repo?fingerprint=3BF0D6ABFEAE2F401707B6D966BE743BF0EEE49C2561B9BA39073711F628937A" target="_blank">Izzysoft Repository</a></td>
+    <td>This is an repository for F-Droid, it contsins 800+ more apps</td>
+  </tr>
+  <tr>
+    <td><a href="https://newpipe.net/" target="_blank">NewPipe</a>
+    </td>
+    <td>NewPipe is a frontend for YouTube
+    <br> It removes ad's,<br>requires no account which increaces privacy and has a Download feature</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://trackercontrol.org" target="_blank">Tracker Control</a>
+    </td>
+    <td>
+      Tracker Control uses a private VPN to block trackers.<br>These are customizable for every app.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://getsession.org/" target="_blank">Session</a>
+    </td>
+    <td>
+      Session is a messenger just like <a href="https://signal.org/" target="_blank">Signal</a> but Session is Open Source, doesn't require a phone number and the traffic is routed through an onion routing network.
+    </td>
+  </tr>
+  </table>
+  
+  <!-- This following part let's the users send Email's to me without knowing my real E-Mail -->
+  <p>Questions? <br>
+  <a href="mailto:web3deamon.crypto@ud.me">Send me an E-Mail!</a></p>
+</body>
+</html>
